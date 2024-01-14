@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "@src/*": ["src/*"]
+      "@src": [
+        "src"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@lib/shared": [
+        "libs/shared/src"
+      ],
+      "@lib/shared/*": [
+        "libs/shared/src/*"
+      ]
     }
-  },
+  }
 }
