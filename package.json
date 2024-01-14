@@ -5,7 +5,7 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "lint": "eslint \"{src,apps,test}/**/*.ts\" --fix",
     "build": "nest build",
     "start": "nest start",
     "start:dev": "nest start --watch",
