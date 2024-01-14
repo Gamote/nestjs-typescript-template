@@ -29,6 +29,5 @@ It aims to be a simple, yet powerful template for NestJS projects where you can 
 - `@types/node` - TypeScript type definitions for Node.js
 - `eslint`, `eslint-config-universe`, `eslint-plugin-promise`, `prettier` - ESLint and Prettier for code linting and formatting, Expo's ESLint config (easy to use and a solid ruleset), and ESLint plugin for Promises
 - `typescript` - TypeScript compiler
-- `ts-loader` - TypeScript loader for Webpack
 - `tsconfig-paths` - Resolves TypeScript path mappings, simplifying project structure management
     > ℹ️ Removed for now as it seems to work without it, but it might be needed in the future.
