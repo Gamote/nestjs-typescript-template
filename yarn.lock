@@ -3702,10 +3702,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nestjs-zod-config@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/nestjs-zod-config/-/nestjs-zod-config-1.2.0.tgz#43e5d92e20503d5a9e1817446442a50b1fa73bb9"
-  integrity sha512-TL8hxvOcBUlq4CdgWih/TX7rSFNpEd4TLbIt1onKE08XdOsVJAgZg1P7NFYN9ibllL2RI+Ug7xwqFDYkPO6Kbg==
+nestjs-zod-config@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/nestjs-zod-config/-/nestjs-zod-config-1.2.3.tgz#a645ff8b67689bc06026188abe2336dce0081c1e"
+  integrity sha512-zk/oHbsVY1qRlw1fxxzHs1JlvUL6eimhKaNbL7Pfnc5CHhs486FAeLcDC8d1VWQqtoCwnYzEsQYdgqMxl/KJQg==
 
 node-abort-controller@^3.0.1:
   version "3.1.1"
