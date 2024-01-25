@@ -1,4 +1,4 @@
-import { ZodConfig } from 'nestjs-zod-config';
+import { ZodConfig, safeBooleanCoerce } from 'nestjs-zod-config';
 import { z } from 'zod';
 
 /**
@@ -9,6 +9,7 @@ const appConfigSchema = z.object({
   NODE_ENV: z.enum(['development', 'test', 'staging', 'production']).default('development'),
   HOSTNAME: z.string().min(1).default('0.0.0.0'),
   PORT: z.coerce.number().default(3000),
+  DANGEROUS_DELETE_EVERYTHING: safeBooleanCoerce,
 });
 
 export class AppConfig extends ZodConfig(appConfigSchema) {}

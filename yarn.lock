@@ -1871,6 +1871,11 @@ dotenv@16.3.1:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
+dotenv@^16.4.1:
+  version "16.4.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.1.tgz#1d9931f1d3e5d2959350d1250efab299561f7f11"
+  integrity sha512-CjA3y+Dr3FyFDOAMnxZEGtnW9KBR2M0JvvUtXNW+dYJL5ROWxP9DUHCwgFqpMk0OXCc0ljhaNTr2w/kutYIcHQ==
+
 eastasianwidth@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
@@ -3702,10 +3707,12 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nestjs-zod-config@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/nestjs-zod-config/-/nestjs-zod-config-1.2.3.tgz#a645ff8b67689bc06026188abe2336dce0081c1e"
-  integrity sha512-zk/oHbsVY1qRlw1fxxzHs1JlvUL6eimhKaNbL7Pfnc5CHhs486FAeLcDC8d1VWQqtoCwnYzEsQYdgqMxl/KJQg==
+nestjs-zod-config@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/nestjs-zod-config/-/nestjs-zod-config-2.0.0.tgz#6d21a1ae63702971cf6c43b3054ed37650a9ed47"
+  integrity sha512-ngLpen1BfTDSXp5/VaFRUFb+tphSuamnPjILTGlhetqfFCh3pHEc+7pFSJTVEiRoz1gZlGf2AIZozw+KCC+WSw==
+  dependencies:
+    dotenv "^16.4.1"
 
 node-abort-controller@^3.0.1:
   version "3.1.1"

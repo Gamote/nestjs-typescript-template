@@ -7,7 +7,7 @@ import { ZodConfigModule } from 'nestjs-zod-config';
 @Module({
   imports: [
     ZodConfigModule.forRoot({
-      service: AppConfig,
+      config: AppConfig,
     }),
   ],
   controllers: [AppController],
