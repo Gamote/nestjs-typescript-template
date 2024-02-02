@@ -22,8 +22,13 @@ module.exports = {
         project: './tsconfig.json',
       },
       rules: {
+        // It will enforce the use of `void` or `await` in front of the promise
         'no-void': ['error', { allowAsStatement: true }],
         '@typescript-eslint/no-floating-promises': 2,
+
+        // This is very important, it will enforce the use of `await` inside `try-catch` blocks
+        // Without this rule, the code will not be able to catch the error from the promise
+        '@typescript-eslint/return-await': ['error', 'in-try-catch'],
       },
     },
   ],
